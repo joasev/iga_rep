@@ -1,0 +1,9 @@
+/target
+/input_data
+/output
+/src/main.rs
+/src/server
+/src/server.rs
+/.vscode
+.DS_Store
+src/.DS_Store

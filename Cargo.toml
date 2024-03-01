@@ -1,0 +1,17 @@
+[package]
+name = "iga_rep"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", features = ["derive", "rc"] }
+serde_json = "1.0"
+calamine="0.22.0"
+actix-web = "4"
+actix-cors = "0.6.4"
+chrono = { version = "0.4.31", features = ["serde"] }
+csv = "1.3.0"
+rust_xlsxwriter = "0.62.0"
+anyhow = "1.0.80"
